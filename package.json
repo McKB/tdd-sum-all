@@ -1,0 +1,27 @@
+{
+  "name": "tdd-sum-all",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "mocha ./tests/*.test.js",
+    "lint": "eslint --format stylish .",
+    "lint-fix": "eslint --format stylish --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McKB/tdd-sum-all.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/McKB/tdd-sum-all/issues"
+  },
+  "homepage": "https://github.com/McKB/tdd-sum-all#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.12.0",
+    "mocha": "^9.2.2"
+  }
+}
